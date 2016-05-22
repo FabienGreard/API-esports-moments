@@ -1,0 +1,17 @@
+{
+  "name": "Esports-Moments_api",
+  "version": "0.1.0",
+  "description": "api based on Esports-Moments",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.13.3",
+    "mongoose": "^4.1.2"
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/JaZziW/API-esports-moments"
+},
+  "author": "Fabien Gréard 'JaZziW'",
+  "license": "GPL",
+  "url": "https://www.linkedin.com/in/fabiengreard"
+}
