@@ -1,0 +1,11 @@
+var mongodb = require('./mongo');
+
+var MomentSchema = new mongodb.Schema({
+  name: String,
+  url: String,
+  upvote: Number,
+  downvote: Number,
+  category: String
+});
+
+module.exports = mongodb.model('moment', MomentSchema);
